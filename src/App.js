@@ -34,7 +34,7 @@ const App = () => {
     };
 
     useEffect(() => {
-        fetchWeatherData("Arizona");
+        fetchWeatherData("Paris");
     }, []);
 
     const CheckTime = (timezoneOffset) => {
