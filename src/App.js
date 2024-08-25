@@ -35,6 +35,7 @@ const App = () => {
 
     useEffect(() => {
         fetchWeatherData("Paris");
+        // eslint-disable-next-line
     }, []);
 
     const CheckTime = (timezoneOffset) => {
